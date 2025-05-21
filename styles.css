@@ -1983,19 +1983,21 @@ section:first-of-type {
 
   .section-grid .text-content {
     order: 2;
+    margin-top: var(--spacing-lg);
   }
 
   .section-grid .image-content {
-    order: 1;
+    order: -1;
     position: static;
-    margin-bottom: var(--spacing-md);
-    text-align: center;
+    margin: -16px -16px var(--spacing-md);
+    width: calc(100% + 32px);
   }
 
   .section-image {
-    max-width: 100%;
     width: 100%;
-    margin: 0 auto;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
   }
 
   .feature-cards, .brands-grid {
