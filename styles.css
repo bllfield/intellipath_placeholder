@@ -950,9 +950,9 @@ footer {
 }
 
 .hitthejackwatt img.brand-header-logo {
-  height: 200px;
-  width: 100%;
-  max-width: none;
+  height: 74px;
+  width: auto;
+  max-width: 100%;
   padding: 0;
   object-fit: contain;
 }
