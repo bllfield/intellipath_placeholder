@@ -1981,6 +1981,23 @@ section:first-of-type {
     gap: 24px;
   }
 
+  .section-grid .text-content {
+    order: 2;
+  }
+
+  .section-grid .image-content {
+    order: 1;
+    position: static;
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+  }
+
+  .section-image {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .feature-cards, .brands-grid {
     display: flex;
     flex-direction: column;
