@@ -1979,18 +1979,18 @@ section:first-of-type {
   .section-grid {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
   }
 
   .section-grid .text-content {
     order: 2;
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-sm);
   }
 
   .section-grid .image-content {
     order: -1;
     position: static;
-    margin: calc(var(--spacing-md) * -1) calc(var(--spacing-md) * -1) var(--spacing-md);
+    margin: calc(var(--spacing-md) * -1) calc(var(--spacing-md) * -1) var(--spacing-sm);
     width: 100vw;
   }
 
