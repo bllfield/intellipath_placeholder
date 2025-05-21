@@ -1570,12 +1570,14 @@ main .container {
   font-size: 1.1rem;
   margin-bottom: var(--spacing-sm);
   color: var(--navy);
+  text-align: center;
 }
 
 .brand-social-links {
   display: flex;
   gap: var(--spacing-sm);
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social-icon {
@@ -1643,13 +1645,34 @@ main .container {
 
 @media (max-width: 768px) {
   .brand-social-links {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
   }
   
   .social-icon {
-    width: 36px;
-    height: 36px;
+    width: 100%;
+    max-width: 300px;
+    height: 48px;
+    border-radius: var(--border-radius-md);
     font-size: 1.1rem;
+    justify-content: flex-start;
+    padding: 0 var(--spacing-md);
+  }
+  
+  .social-icon i {
+    margin-right: var(--spacing-sm);
+  }
+  
+  .social-icon:after {
+    content: attr(aria-label);
+    margin-left: var(--spacing-sm);
+    font-family: var(--body-font);
+    font-size: 1rem;
+  }
+
+  .social-icon:hover {
+    transform: translateY(-1px);
   }
 }
 
