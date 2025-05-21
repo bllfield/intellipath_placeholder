@@ -95,6 +95,8 @@ h2 {
   font-size: 2.5rem;
   margin-bottom: var(--spacing-md);
   position: relative;
+  text-align: center;
+  padding-bottom: var(--spacing-sm);
 }
 
 h2:after {
@@ -1947,18 +1949,19 @@ section:first-of-type {
   }
 }
 
-/* Section Headings */
-section h2 {
-  text-align: center;
+/* Section Headings - Base Styles */
+h2 {
+  font-size: 2.5rem;
   margin-bottom: var(--spacing-md);
   position: relative;
+  text-align: center;
   padding-bottom: var(--spacing-sm);
 }
 
-section h2:after {
+h2:after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   width: 60px;
@@ -1966,23 +1969,69 @@ section h2:after {
   background: var(--bright-blue);
 }
 
-/* Preserve any specific section heading styles */
-.hero h1 {
-  text-align: center;
-  margin-bottom: var(--spacing-md);
-}
-
+/* Ensure all section headings follow the same style */
+.section-heading h2,
 .values-section h2,
 .vision-section h2,
 .purpose-section h2,
-.founder-quote-section h2 {
-  margin-bottom: var(--spacing-xl);
+.team-section h2,
+.partnership-types h2,
+.contact-section h2,
+.testimonials h2,
+.brands-overview h2,
+.founder-quote-section h2,
+.team-approach-section h2,
+.social-connect h2,
+.future-roles-section h2,
+.benefits-section h2 {
+  text-align: center;
 }
 
-/* Ensure section content is properly aligned */
-.vision-section p,
-.purpose-section p {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+.section-heading h2:after,
+.values-section h2:after,
+.vision-section h2:after,
+.purpose-section h2:after,
+.team-section h2:after,
+.partnership-types h2:after,
+.contact-section h2:after,
+.testimonials h2:after,
+.brands-overview h2:after,
+.founder-quote-section h2:after,
+.team-approach-section h2:after,
+.social-connect h2:after,
+.future-roles-section h2:after,
+.benefits-section h2:after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Mobile Specific Adjustments */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: calc(var(--spacing-sm) + 10px);
+  }
+
+  h2:after {
+    bottom: -5px;
+    width: 50px;
+    height: 3px;
+  }
+
+  /* Ensure section content is also centered on mobile */
+  section {
+    text-align: center;
+  }
+  
+  /* Reset text alignment for specific content that should remain left-aligned */
+  .value-item p,
+  .testimonial p,
+  .brand-description p,
+  .contact-info p,
+  .footer-links ul,
+  .policy-section p,
+  .policy-section ul {
+    text-align: left;
+  }
 } 
