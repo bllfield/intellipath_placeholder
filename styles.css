@@ -1839,4 +1839,75 @@ section:first-of-type {
   .team-image {
     order: -1;
   }
+}
+
+/* Enhanced Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  body {
+    padding: 0 16px;
+    font-size: 16px;
+  }
+
+  .main-header .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .feature-cards, .brands-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  img.section-image, img.brand-header-logo, img.team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  footer .footer-grid {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  footer .footer-logo {
+    max-width: 140px;
+    margin: 0 auto 16px;
+  }
+
+  /* Preserve existing mobile styles */
+  .founder-content,
+  .vision-content {
+    flex-direction: column;
+  }
+
+  .founder-text,
+  .vision-text {
+    padding-right: 0;
+  }
+
+  .founder-image,
+  .vision-image {
+    margin-top: var(--spacing-md);
+    text-align: center;
+  }
 } 
