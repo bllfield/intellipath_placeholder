@@ -146,9 +146,28 @@ section:first-of-type {
 
 .section-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: var(--spacing-lg);
   margin-top: var(--spacing-md);
+  align-items: start;
+}
+
+.text-content {
+  order: 1;
+}
+
+.image-content {
+  order: 2;
+  position: sticky;
+  top: var(--spacing-lg);
+}
+
+.section-image {
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  height: auto;
+  object-fit: cover;
 }
 
 .bg-light {
@@ -350,14 +369,6 @@ section:first-of-type {
 .mission-section {
   position: relative;
   overflow: hidden;
-}
-
-.section-image {
-  border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-lg);
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* Feature Cards */
