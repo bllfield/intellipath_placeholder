@@ -1,0 +1,15 @@
+Required Image Files:
+
+1. hero-energy.jpg - Hero background image with energy/home theme (high resolution, dark overlay will be applied)
+2. smart-home-energy.jpg - Image of smart home energy management (for mission section)
+3. founder-energy.jpg - Image of energy industry or business meeting (for founder section)
+
+Placeholder content: You can find suitable royalty-free images on sites like Unsplash.com, Pexels.com, or Adobe Stock.
+
+Example search terms:
+- Smart home energy
+- Solar panel house
+- Energy efficiency
+- Smart meter
+- Green energy home
+- Electricity savings 

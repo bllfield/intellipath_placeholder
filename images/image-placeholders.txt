@@ -1,0 +1,31 @@
+IMPORTANT: PLACEHOLDER IMAGES
+
+The redesigned website requires the following images. Files have been created as placeholders but need to be replaced with actual images:
+
+1. hero-energy.jpg 
+   - This is the main hero background image that appears at the top of the homepage
+   - Should be a high-resolution image of a modern home with energy-related elements
+   - Size: Approximately 1920px × 1080px
+   - A dark overlay will be applied to this image automatically by the CSS
+
+2. smart-home-energy.jpg
+   - This appears in the mission section on the homepage
+   - Should show smart home energy management (smart meter, app, etc.)
+   - Size: Approximately 600px × 400px
+
+3. founder-energy.jpg
+   - This appears in the founder section on the homepage
+   - Should be an image related to the energy industry or a business setting
+   - Size: Approximately 600px × 400px
+
+You can find suitable royalty-free images on sites like:
+- Unsplash.com (completely free to use)
+- Pexels.com (completely free to use)
+- iStock.com (paid service)
+- Shutterstock.com (paid service)
+
+Based on our web search, good search terms include:
+- "Smart home energy"
+- "Smart meter dashboard"
+- "Energy efficiency home"
+- "Smart home automation" 
