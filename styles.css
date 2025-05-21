@@ -1658,8 +1658,9 @@ main .container {
     height: 48px;
     border-radius: var(--border-radius-md);
     font-size: 1.1rem;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 0 var(--spacing-md);
+    text-align: center;
   }
   
   .social-icon i {
@@ -1668,13 +1669,22 @@ main .container {
   
   .social-icon:after {
     content: attr(aria-label);
-    margin-left: var(--spacing-sm);
     font-family: var(--body-font);
     font-size: 1rem;
   }
 
   .social-icon:hover {
     transform: translateY(-1px);
+  }
+
+  /* Ensure brand social sections are centered */
+  .brand-social {
+    text-align: center;
+  }
+
+  .brand-social h3 {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
   }
 }
 
