@@ -1405,8 +1405,9 @@ main .container {
   color: #0077b5;
 }
 
-.social-link.twitter i {
-  color: #1da1f2;
+.social-link.twitter i,
+.social-link.x i {
+  color: #000000;
 }
 
 .social-link.facebook i {
@@ -1757,8 +1758,9 @@ main .container {
   color: #0077b5;
 }
 
-.social-icon.twitter {
-  color: #1da1f2;
+.social-icon.twitter,
+.social-icon.x {
+  color: #000000;
 }
 
 .social-icon.facebook {
@@ -1778,8 +1780,9 @@ main .container {
   color: white;
 }
 
-.social-icon:hover.twitter {
-  background-color: #1da1f2;
+.social-icon:hover.twitter,
+.social-icon:hover.x {
+  background-color: #000000;
   color: white;
 }
 
